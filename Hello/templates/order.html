@@ -1,0 +1,337 @@
+{% extends 'base.html' %}
+{% block title %}
+    orders
+{% endblock title %}
+{% block body %}
+<html lang="en">
+  <head> 
+   
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col">
+          <div class="card my-4 shadow-3">
+            <div class="row g-0">
+              <div class="col-xl-6 d-xl-block bg-image">
+                <img src="https://mdbcdn.b-cdn.net/img/Others/extended-example/delivery.webp" alt="Sample photo"
+                  class="img-fluid" />
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                  <div class=" justify-content-center align-items-center h-100">
+                    <div class=" text-center" style="margin-top: 220px;">
+                      <i class="fas fa-truck text-white fa-3x"></i>                   
+    
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="card-body p-md-5 text-black">
+                  <h3 class="mb-4 text-uppercase">Delivery Info</h3>
+    
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example1m">First name</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example1n">Last name</label>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="form-outline mb-4">
+                    <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                    <label class="form-label" for="form3Example8">Address</label>
+                  </div>
+    
+    
+    
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+    
+<select class="select">
+                        <option value="1">State</option>
+                        <option value="2">BIHAR</option>
+                        <option value="3">DELHI</option>
+                        <option value="4">KARNATAKA</option>
+                        <option value="5">CHENNAI</option>
+                        <option value="6">WEST BENGAL</option>
+                        <option value="7">ANDRAPRADESH</option>
+                        <option value="8">GOA</option>
+                        <option value="9">MAHARASTRA</option>
+                        <option value="10">NAGALAND</option>
+                        <option value="11">PUNJAB</option>
+                        <option value="12">UTTARPRADESH</option>
+                        <option value="13">MIZORAM</option>                        
+                      </select>
+    
+                    </div>
+                    <div class="col-md-6 mb-4">
+    
+                      <select class="select">
+<option value="">City</option>
+    <option value="Ahmedpur">Ahmedpur</option>
+    <option value="Aistala">Aistala</option>
+    <option value="Aknapur">Aknapur</option>
+    <option value="Alipurduar">Alipurduar</option>
+    <option value="Amlagora">Amlagora</option>
+    <option value="Amta">Amta</option>
+    <option value="Amtala">Amtala</option>
+    <option value="Andal">Andal</option>
+    <option value="Asansol">Asansol</option>
+    <option value="Badkulla">Badkulla</option>
+    <option value="Baduria">Baduria</option>
+    <option value="Bagdogra">Bagdogra</option>
+    <option value="Bagnan">Bagnan</option>
+    <option value="Bagula">Bagula</option>
+    <option value="Bahula">Bahula</option>
+    <option value="Baidyabati">Baidyabati</option>
+    <option value="Bakreswar">Bakreswar</option>
+    <option value="Balarampur">Balarampur</option>
+    <option value="Bali Chak">Bali Chak</option>
+    <option value="Bally">Bally</option>
+    <option value="Balurghat">Balurghat</option>
+    <option value="Baneswar">Baneswar</option>
+    <option value="Bangaon">Bangaon</option>
+    <option value="Bankra">Bankra</option>
+    <option value="Bankura">Bankura</option>
+    <option value="Bansberia">Bansberia</option>
+    <option value="Barabazar">Barabazar</option>
+    <option value="Baranagar">Baranagar</option>
+    <option value="Barasat">Barasat</option>
+    <option value="Bardhaman">Bardhaman</option>
+    <option value="Barjora">Barjora</option>
+    <option value="Barrackpore">Barrackpore</option>
+    <option value="Baruipur">Baruipur</option>
+    <option value="Basanti">Basanti</option>
+    <option value="Basirhat">Basirhat</option>
+    <option value="Bawali">Bawali</option>
+    <option value="Begampur">Begampur</option>
+    <option value="Belda">Belda</option>
+    <option value="Beldanga">Beldanga</option>
+    <option value="Beliatore">Beliatore</option>
+    <option value="Berhampore">Berhampore</option>
+    <option value="Bhadreswar">Bhadreswar</option>
+    <option value="Bhandardaha">Bhandardaha</option>
+    <option value="Bhatpara">Bhatpara</option>
+    <option value="Birbhum district">Birbhum district</option>
+    <option value="Birpara">Birpara</option>
+    <option value="Bishnupur">Bishnupur</option>
+    <option value="Bolpur">Bolpur</option>
+    <option value="Budge Budge">Budge Budge</option>
+    <option value="Canning">Canning</option>
+    <option value="Chakapara">Chakapara</option>
+    <option value="Chakdaha">Chakdaha</option>
+    <option value="Champadanga">Champadanga</option>
+    <option value="Champahati">Champahati</option>
+    <option value="Champdani">Champdani</option>
+    <option value="Chandannagar">Chandannagar</option>
+    <option value="Chandrakona">Chandrakona</option>
+    <option value="Chittaranjan">Chittaranjan</option>
+    <option value="Churulia">Churulia</option>
+    <option value="Contai">Contai</option>
+    <option value="Cooch Behar">Cooch Behar</option>
+    <option value="Cossimbazar">Cossimbazar</option>
+    <option value="Dakshin Dinajpur district">Dakshin Dinajpur district</option>
+    <option value="Dalkola">Dalkola</option>
+    <option value="Dam Dam">Dam Dam</option>
+    <option value="Darjeeling">Darjeeling</option>
+    <option value="Daulatpur">Daulatpur</option>
+    <option value="Debagram">Debagram</option>
+    <option value="Debipur">Debipur</option>
+    <option value="Dhulagari">Dhulagari</option>
+    <option value="Dhulian">Dhulian</option>
+    <option value="Dhupguri">Dhupguri</option>
+    <option value="Digha">Digha</option>
+    <option value="Dinhata">Dinhata</option>
+    <option value="Domjur">Domjur</option>
+    <option value="Dubrajpur">Dubrajpur</option>
+    <option value="Durgapur">Durgapur</option>
+    <option value="Egra">Egra</option>
+    <option value="Falakata">Falakata</option>
+    <option value="Farakka">Farakka</option>
+    <option value="Fort Gloster">Fort Gloster</option>
+    <option value="Gairkata">Gairkata</option>
+    <option value="Gangadharpur">Gangadharpur</option>
+    <option value="Gangarampur">Gangarampur</option>
+    <option value="Garui">Garui</option>
+    <option value="Garulia">Garulia</option>
+    <option value="Ghatal">Ghatal</option>
+    <option value="Giria">Giria</option>
+    <option value="Gobardanga">Gobardanga</option>
+    <option value="Gobindapur">Gobindapur</option>
+    <option value="Gopalpur">Gopalpur</option>
+    <option value="Gopinathpur">Gopinathpur</option>
+    <option value="Gorubathan">Gorubathan</option>
+    <option value="Gosaba">Gosaba</option>
+    <option value="Gosanimari">Gosanimari</option>
+    <option value="Gurdaha">Gurdaha</option>
+    <option value="Guskhara">Guskhara</option>
+    <option value="Habra">Habra</option>
+    <option value="Haldia">Haldia</option>
+    <option value="Haldibari">Haldibari</option>
+    <option value="Halisahar">Halisahar</option>
+    <option value="Harindanga">Harindanga</option>
+    <option value="Haringhata">Haringhata</option>
+    <option value="Haripur">Haripur</option>
+    <option value="Hasimara">Hasimara</option>
+    <option value="Howrah">Howrah</option>
+    <option value="Ichapur">Ichapur</option>
+    <option value="Ingraj Bazar">Ingraj Bazar</option>
+    <option value="Islampur">Islampur</option>
+    <option value="Jafarpur">Jafarpur</option>
+    <option value="Jaigaon">Jaigaon</option>
+    <option value="Jalpaiguri">Jalpaiguri</option>
+    <option value="Jamuria">Jamuria</option>
+    <option value="Jangipur">Jangipur</option>
+    <option value="Jejur">Jejur</option>
+    <option value="Jhalida">Jhalida</option>
+    <option value="Jhargram">Jhargram</option>
+    <option value="Jhilimili">Jhilimili</option>
+    <option value="Kakdwip">Kakdwip</option>
+    <option value="Kalaikunda">Kalaikunda</option>
+    <option value="Kaliaganj">Kaliaganj</option>
+    <option value="Kalimpong">Kalimpong</option>
+    <option value="Kalna">Kalna</option>
+    <option value="Kalyani">Kalyani</option>
+    <option value="Kamarhati">Kamarhati</option>
+    <option value="Kamarpukur">Kamarpukur</option>
+    <option value="Kanchrapara">Kanchrapara</option>
+    <option value="Kandi">Kandi</option>
+    <option value="Karimpur">Karimpur</option>
+    <option value="Katwa">Katwa</option>
+    <option value="Kenda">Kenda</option>
+    <option value="Keshabpur">Keshabpur</option>
+    <option value="Kharagpur">Kharagpur</option>
+    <option value="Kharar">Kharar</option>
+    <option value="Kharba">Kharba</option>
+    <option value="Khardaha">Khardaha</option>
+    <option value="Khatra">Khatra</option>
+    <option value="Kirnahar">Kirnahar</option>
+    <option value="Kolkata">Kolkata</option>
+    <option value="Konnagar">Konnagar</option>
+    <option value="Krishnanagar">Krishnanagar</option>
+    <option value="Krishnapur">Krishnapur</option>
+    <option value="Kshirpai">Kshirpai</option>
+    <option value="Kulpi">Kulpi</option>
+    <option value="Kultali">Kultali</option>
+    <option value="Kulti">Kulti</option>
+    <option value="Kurseong">Kurseong</option>
+    <option value="Lalgarh">Lalgarh</option>
+    <option value="Lalgola">Lalgola</option>
+    <option value="Loyabad">Loyabad</option>
+    <option value="Madanpur">Madanpur</option>
+    <option value="Madhyamgram">Madhyamgram</option>
+    <option value="Mahiari">Mahiari</option>
+    <option value="Mainaguri">Mainaguri</option>
+    <option value="Manikpara">Manikpara</option>
+    <option value="Masila">Masila</option>
+    <option value="Mathabhanga">Mathabhanga</option>
+    <option value="Medinipur">Medinipur</option>
+    <option value="Memari">Memari</option>
+    <option value="Mirik">Mirik</option>
+    <option value="Monoharpur">Monoharpur</option>
+    <option value="Muragacha">Muragacha</option>
+    <option value="Muri">Muri</option>
+    <option value="Murshidabad">Murshidabad</option>
+    <option value="Nabadwip">Nabadwip</option>
+    <option value="Nabagram">Nabagram</option>
+    <option value="Nagarukhra">Nagarukhra</option>
+    <option value="Nagrakata">Nagrakata</option>
+    <option value="Naihati">Naihati</option>
+    <option value="Naksalbari">Naksalbari</option>
+    <option value="Nalhati">Nalhati</option>
+    <option value="Nalpur">Nalpur</option>
+    <option value="Odlabari">Odlabari</option>
+    <option value="Paikpara">Paikpara</option>
+    <option value="Panagarh">Panagarh</option>
+    <option value="Panchla">Panchla</option>
+    <option value="Panchmura">Panchmura</option>
+    <option value="Pandua">Pandua</option>
+    <option value="Panihati">Panihati</option>
+    <option value="Panskura">Panskura</option>
+    <option value="Parbatipur">Parbatipur</option>
+    <option value="Patiram">Patiram</option>
+    <option value="Patrasaer">Patrasaer</option>
+    <option value="Patuli">Patuli</option>
+    <option value="Pujali">Pujali</option>
+    <option value="Purulia">Purulia</option>
+    <option value="Raghudebbati">Raghudebbati</option>
+    <option value="Raghunathpur">Raghunathpur</option>
+    <option value="Raiganj">Raiganj</option>
+    <option value="Rajmahal">Rajmahal</option>
+   <option value="Ramchandrapur">Ramchandrapur</option>
+    <option value="Ramjibanpur">Ramjibanpur</option>
+    <option value="Ramnagar">Ramnagar</option>
+    <option value="Rampur Hat">Rampur Hat</option>
+    <option value="Ranaghat">Ranaghat</option>
+    <option value="Raniganj">Raniganj</option>
+    <option value="Raypur">Raypur</option>
+    <option value="Rishra">Rishra</option>
+    <option value="Sahapur">Sahapur</option>
+    <option value="Sainthia">Sainthia</option>
+    <option value="Sankarpur">Sankarpur</option>
+    <option value="Sankrail">Sankrail</option>
+    <option value="Santipur">Santipur</option>
+    <option value="Santoshpur">Santoshpur</option>
+    <option value="Sarenga">Sarenga</option>
+    <option value="Serampore">Serampore</option>
+    <option value="Serpur">Serpur</option>
+    <option value="Siliguri">Siliguri</option>
+    <option value="Singur">Singur</option>
+    <option value="Sodpur">Sodpur</option>
+    <option value="Solap">Solap</option>
+    <option value="Sonada">Sonada</option>
+    <option value="Sonamukhi">Sonamukhi</option>
+    <option value="Srikhanda">Srikhanda</option>
+    <option value="Srirampur">Srirampur</option>
+    <option value="Suri">Suri</option>
+    <option value="Takdah">Takdah</option>
+    <option value="Taki">Taki</option>
+    <option value="Tamluk">Tamluk</option>
+    <option value="Tarakeswar">Tarakeswar</option>
+    <option value="Titagarh">Titagarh</option>
+    <option value="Tufanganj">Tufanganj</option>
+    <option value="Tulin">Tulin</option>
+    <option value="Uchalan">Uchalan</option>
+    <option value="Ula">Ula</option>
+    <option value="Uluberia">Uluberia</option>
+    
+                      </select>
+    
+                    </div>
+                  </div>
+    
+                  <div class="form-outline mb-4">
+                    <input type="text" id="form3Example3" class="form-control form-control-lg" />
+                    <label class="form-label" for="form3Example3">Zip</label>
+                  </div>
+    
+                  <div class="form-outline mb-4">
+                    <input type="text" id="form3Example2" class="form-control form-control-lg" />
+                    <label class="form-label" for="form3Example2">Email</label>
+                  </div>
+    
+                  <div class="d-flex justify-content-end pt-3">
+                    <button type="button" class="btn btn-success btn-lg ms-2"
+                      style="background-color:hsl(210, 100%, 50%) ">Place order</button>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+{% endblock body%}
